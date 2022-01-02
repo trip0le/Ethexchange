@@ -19,6 +19,5 @@ Metamask browser extension acts as a mock crypto wallet and gateway to validate 
 
 
 ![image](https://user-images.githubusercontent.com/79986094/147876065-de3be33f-e36b-48dd-9d16-39793e39cc6b.png)
-![147876051-1a703994-ac3b-446c-958b-7b08f8f3861a](https://user-images.githubusercontent.com/79986094/147876777-3722170b-6bdb-48d1-85e1-fe7539958ef4.png)
 
 [Click to watch the Demo Video](https://drive.google.com/file/d/10uwbh-EOmg95vodMhE2u_e1cBQcMINdn/view?usp=drivesdk)
