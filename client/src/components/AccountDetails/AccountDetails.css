@@ -1,0 +1,97 @@
+.account-details-grid-wrapper {
+margin-top: 130px;
+  display: flex;
+  overflow-x: hidden;
+}
+.flex {
+  flex: 1;
+}
+.account-card {
+  /* box-shadow: 9px 10px 53px -4px rgba(0, 0, 0, 0.67);
+  -webkit-box-shadow: 9px 10px 53px -4px rgba(0, 0, 0, 0.67);
+  -moz-box-shadow: 9px 10px 53px -4px rgba(0, 0, 0, 0.67); */
+  margin: 10px;
+  /* width: 100vw; */
+}
+.account-card .inner-wrapper {
+  padding: 10px;
+}
+
+.account-card .inner-wrapper h3 {
+  margin: 15px;
+  padding: 10px;
+  background: linear-gradient(225deg, #202020, #3d3c3c);
+  color: #fff;
+  border-radius: 50px;
+}
+
+.add-balance-card {
+  margin-top: 5vh;
+  /* box-shadow: 9px 10px 53px -4px rgba(0, 0, 0, 0.67);
+  -webkit-box-shadow: 9px 10px 53px -4px rgba(0, 0, 0, 0.67);
+  -moz-box-shadow: 9px 10px 53px -4px rgba(0, 0, 0, 0.67); */
+  height: 16vh;
+}
+
+
+.add-balance-card  h3{
+    padding: 15px;
+    text-align: center;
+}
+
+.child{
+    position: relative;
+    top:-0.1vh;
+    left: 14vw;
+}
+
+
+.form-input-field{
+    border: 0.2px solid black;
+    border-radius: 20px ;
+    outline: none;
+    padding: 5px 10px 5px 10px;
+}
+.submit-button{
+    border:none;
+    padding: 8px 10px 8px 10px;
+    margin-left: 10px;
+    width: 150px;
+    border-radius: 20px;
+    background: #202020;
+    color: #fff;
+}
+
+.submit-button:hover{
+    background: #3d3c3c;
+    transition: 0.5s ease-in-out;
+}
+
+.submit-button-2{
+    border:none;
+    padding: 8px 10px 8px 10px;
+    margin-left: 6vw;
+    width: 150px;
+    border-radius: 20px;
+    background: #202020;
+    color: #fff;
+}
+
+.submit-button-2:hover{
+    background: #3d3c3c;
+    transition: 0.5s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .account-details-section{
+        padding: 0;
+        margin: 0;
+        /* height: 100vh; */
+        z-index: 1;
+    }
+  .account-details-grid-wrapper {
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+}

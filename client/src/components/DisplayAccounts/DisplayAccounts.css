@@ -1,0 +1,8 @@
+.Heading{
+    width: 80%;
+    margin:2rem auto;
+    text-align: center;
+}
+.account-bars{
+    cursor: pointer;
+}
